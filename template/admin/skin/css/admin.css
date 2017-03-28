@@ -36,9 +36,9 @@ body,html {  overflow-x:hidden; font-family:'微软雅黑'; background:#f4f4f4 u
 .clear {clear:both; }
 /* 页头 */
 
-#header { padding: 10px 10px 0px; height: 76px;  background:#04243a url(../images/admin_logo.png) 18px 10px no-repeat; }
+#header { padding: 10px 10px 0px; height: 60px;  background:#1c2b36 url(../images/admin_logo.png) 18px 10px no-repeat; }
 .logo { float: left; margin: 10px 15px; width:200px;}
-.top_right { float: right; width: 300px; height: 43px; line-height: 22px; margin: 6px; padding-right: 50px; text-align: right;  color: #A3A3A3; background:url(../images/avatar.gif) right center no-repeat;}
+.top_right { float: right; width: 300px; height: 25px; line-height: 25px; margin: 6px; padding-right: 35px; text-align: right;  color: #A3A3A3; background:url(../images/avatar.gif) right center no-repeat;}
 .top_right span { color: #FFF; }
 .top_right a { color: #FFF; }
 .top_right strong { color: #3882EE; }
@@ -66,7 +66,7 @@ option.website {height:32px;line-height:32px;}
 #position .quick a.on:visited { color: white; }
 /* 左侧 */
 
-#left { float: left; width: 200px; overflow:hidden; background:#1c2b36; position:absolute;top:128px;left:0;}
+#left { float: left; width: 200px; overflow:hidden; background:#1c2b36; position:absolute;/*top:128px;*/left:0;}
 /* 左侧菜单 */
 
 #menu {  }
@@ -113,7 +113,7 @@ option.website {height:32px;line-height:32px;}
 
 .tags { clear: both; margin: 15px 15px 15px 0px; }
 #tagscontent{margin: 15px 15px 15px 0px; }
-#tagstitle { height: 42px; line-height: 42px; margin: 20px 5px 15px 10px; }
+#tagstitle { height: 42px; line-height: 42px;/* margin: 20px 5px 15px 10px;*/ }
 #tagstitle a { float: left; width: 90px; height: 42px; line-height: 38px; background: url(../images/tab_line.gif) right center no-repeat; text-align: center;  color: #333; }
 #tagstitle a.hover { width: 95px; background: url(../images/tab_a_on.gif) left top no-repeat; font-weight: bold; text-shadow: #CCCCCC 1px 1px 1px; FILTER: dropshadow(color=#B4BBCF, offx=6, offy=6, positive=1); }
 .tips { color: #7D7D7D; }
@@ -122,7 +122,7 @@ option.website {height:32px;line-height:32px;}
 #table, #table_1, #table_2, #table_3, #table_4, #table_5, #table_6, #table_7, #table_8, #table_field {  _width: 100%; }
 #table .left, #table_field .left { width: 150px; text-align: right; padding-right: 10px; }
 #table tr.th th, #table1 tr.th th, #table2 tr.th th, #table3 tr.th th, #table4 tr.th th, #table5 tr.th th, #table6 tr.th th, #table7 tr.th th, #table8 tr.th th { height: 28px; line-height: 28px; color: white; font-weight: normal; background:#7080ad; }
-#table td, #table1 td, #table2 td, #table3 td, #table4 td, #table5 td, #table6 td, #table7 td, #table8 td, #table_field td { padding: 15px 5px; }
+#table td, #table1 td, #table2 td, #table3 td, #table4 td, #table5 td, #table6 td, #table7 td, #table8 td, #table_field td { padding: 8px 5px; }
 
 .blank5, .blank10, blank20 { clear: both; height: 5px; }
 .blank10 { height: 10px; }

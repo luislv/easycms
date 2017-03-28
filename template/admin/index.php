@@ -28,7 +28,7 @@ window.onerror = killerrors;
 <div class="top_right">
 <ul>
 <li><span>您好，<strong>{$user.username}！</strong> [<a href="{$base_url}/index.php?case=index&act=logout&admin_dir={config::get('admin_dir')}">退出</a>]</span></li>
-<li><a href="http://www.cmseasy.cn/" target="_blank">官方网站</a> | <a href="http://www.cmseasy.cn/service/" target="_blank">商业授权</a> | <a href="http://www.cmseasy.org" target="_blank">问题交流</a> | <a href="http://www.cmseasy.cn/chm/" target="_blank">在线教程？</a></li>
+<!--<li><a href="http://www.cmseasy.cn/" target="_blank">官方网站</a> | <a href="http://www.cmseasy.cn/service/" target="_blank">商业授权</a> | <a href="http://www.cmseasy.org" target="_blank">问题交流</a> | <a href="http://www.cmseasy.cn/chm/" target="_blank">在线教程？</a></li>-->
 </ul>
 </div>
 </div>

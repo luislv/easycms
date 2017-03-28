@@ -1,7 +1,7 @@
 <?php if (!defined('ADMIN')) exit('Can\'t Access !'); ?>
  
 <style>
-#nav li.nav1 { padding:0px 5px; background:white; border-right:2px solid #04243a; color:#04243a; }
+#nav li.nav1 { padding:0px 5px; background:white; color:#04243a; }
 #nav li.nav1 a {color:#04243a;}
 #menu dl.l_1 dd.m0 { font-weight: bold; font-size:14px; background:#053555 url({$skin_path}/images/one_dd_hover.gif) right center no-repeat; color:white;  }
 
@@ -196,24 +196,24 @@ border-radius: 3px 3px 3px 3px;
 <div class="clear"></div>
 
 
-<div class="i_box" style="width:385px;">
-<table border="0" cellspacing="0" cellpadding="0" name="table9" id="table9" width="100%">
-<thead>
-<tr>
-<th colspan="2">官方信息，以及优惠活动！</th>
-</tr>
-</table>
-<div id="information">
-</div>
-
-<div class="i_links_bg">
-[ 授权版本：<a>{htmlspecialchars_decode(stripslashes(cookie::get('passinfo')))}</a> ]<br />
-[ 授权信息： <span id="__buy"><a href="http://vip.cmseasy.cn" target="_blank"><span style="color:green;">自助查询</span></a></span> ]<br />
-[ 开发团队：CmsEasy Team ]<br />
-
-</div>
-
-</div>
+<!--<div class="i_box" style="width:385px;">-->
+<!--<table border="0" cellspacing="0" cellpadding="0" name="table9" id="table9" width="100%">-->
+<!--<thead>-->
+<!--<tr>-->
+<!--<th colspan="2">官方信息，以及优惠活动！</th>-->
+<!--</tr>-->
+<!--</table>-->
+<!--<div id="information">-->
+<!--</div>-->
+<!---->
+<!--<div class="i_links_bg">-->
+<!--[ 授权版本：<a>{htmlspecialchars_decode(stripslashes(cookie::get('passinfo')))}</a> ]<br />-->
+<!--[ 授权信息： <span id="__buy"><a href="http://vip.cmseasy.cn" target="_blank"><span style="color:green;">自助查询</span></a></span> ]<br />-->
+<!--[ 开发团队：CmsEasy Team ]<br />-->
+<!---->
+<!--</div>-->
+<!---->
+<!--</div>-->
 
 <div class="i_box" style="width:385px;height:277px;">
 <table border="0" cellspacing="0" cellpadding="0" name="table9" id="table9" width="100%">
