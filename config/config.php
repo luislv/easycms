@@ -5,7 +5,7 @@
 'user'=>'root',//用户名
 'password'=>'root',//密码
 'database'=>'cmseasy',//数据库名
-'prefix'=>'',//表前缀
+'prefix'=>'cmseasy_',//表前缀
 'encoding'=>'utf8',//编码
 ),
 
